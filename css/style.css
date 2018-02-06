@@ -1,0 +1,113 @@
+body{
+    /*background-color: #ccffcc;*/
+    background-image: url(../images/Greenleaf.jpg);
+ 
+}
+
+.header_height{
+    height:100px;
+    /*background-color: #cccccc;*/
+    
+}
+/*.slider_height{height:250px;}*/
+/*.menu{height:50px;}*/
+.content_height{min-height: 600px;}
+.big_footer_height{height:400px;}
+.footer_height{min-height:300px;}
+.gallery_height{
+    height: 250px;
+} 
+
+.header_height_side{
+    margin-bottom:  12px;
+    margin-top: 12px;
+}
+/*.slider_height_side{
+     margin-top: 10px;
+}*/
+.content_height_side{
+    margin-bottom:  20px;
+    margin-top: 20px;
+
+}
+
+[class*='col-']{
+    /*border: 1px dotted gray;*/
+    border: none;
+    padding: 0px;
+}
+@media screen and (max-width:479px){
+    [class*='col-']{
+        width: 100%;
+        
+    }
+}
+
+@media screen and (min-width:480px) and(max-width:767px){
+    .my_position{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    .row_position{
+        position: relative;
+    }
+}
+
+
+
+.logo_image{
+    width:100%;
+    height:100%;
+    
+}
+.up_image{
+     width:100%;
+    height:100%;
+}
+.footer_image{
+    width: 100%;
+    height: 60%;
+}
+.content_height h2{
+    color: #339900;
+    font-size: 22px;
+}
+.content_height p{
+    color: navy;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.big_footer_height{
+    background-color: #ccccff;
+    color: navy; 
+    font-weight: bold;
+
+}
+.big_footer_height a{
+    color: blue;
+}
+.big_footer_height h4{text-align: center;}
+
+.carousel-inner{
+     width:100%;
+    height:100%;
+}
+
+
+
+/*.my_margin{
+    margin-left: 15%;
+}
+.my_width{
+    width: 400px;
+}*/
+
+
+
+
+
+
+
+ 
